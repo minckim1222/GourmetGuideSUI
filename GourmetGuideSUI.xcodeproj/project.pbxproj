@@ -11,6 +11,11 @@
 		A42F41D72B70511E0041DD17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42F41D62B70511E0041DD17 /* ContentView.swift */; };
 		A42F41D92B70511F0041DD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42F41D82B70511F0041DD17 /* Assets.xcassets */; };
 		A42F41DC2B70511F0041DD17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42F41DB2B70511F0041DD17 /* Preview Assets.xcassets */; };
+		A42F41E52B70526A0041DD17 /* GGResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42F41E42B70526A0041DD17 /* GGResponseModel.swift */; };
+		A42F41E72B7052870041DD17 /* GGSingleRecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42F41E62B7052870041DD17 /* GGSingleRecipeResponse.swift */; };
+		A42F41E92B7052980041DD17 /* GGRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42F41E82B7052980041DD17 /* GGRecipe.swift */; };
+		A42F41EC2B7052BC0041DD17 /* GGRandomRecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42F41EB2B7052BC0041DD17 /* GGRandomRecipeResponse.swift */; };
+		A42F41EE2B7052CD0041DD17 /* GGIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42F41ED2B7052CD0041DD17 /* GGIngredient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		A42F41D62B70511E0041DD17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A42F41D82B70511F0041DD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42F41DB2B70511F0041DD17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A42F41E42B70526A0041DD17 /* GGResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGResponseModel.swift; sourceTree = "<group>"; };
+		A42F41E62B7052870041DD17 /* GGSingleRecipeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGSingleRecipeResponse.swift; sourceTree = "<group>"; };
+		A42F41E82B7052980041DD17 /* GGRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGRecipe.swift; sourceTree = "<group>"; };
+		A42F41EB2B7052BC0041DD17 /* GGRandomRecipeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGRandomRecipeResponse.swift; sourceTree = "<group>"; };
+		A42F41ED2B7052CD0041DD17 /* GGIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGIngredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		A42F41D32B70511E0041DD17 /* GourmetGuideSUI */ = {
 			isa = PBXGroup;
 			children = (
+				A42F41E22B7051850041DD17 /* Core */,
 				A42F41D42B70511E0041DD17 /* GourmetGuideSUIApp.swift */,
 				A42F41D62B70511E0041DD17 /* ContentView.swift */,
 				A42F41D82B70511F0041DD17 /* Assets.xcassets */,
@@ -65,6 +76,26 @@
 				A42F41DB2B70511F0041DD17 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A42F41E22B7051850041DD17 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A42F41E32B7051F80041DD17 /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A42F41E32B7051F80041DD17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A42F41E42B70526A0041DD17 /* GGResponseModel.swift */,
+				A42F41E62B7052870041DD17 /* GGSingleRecipeResponse.swift */,
+				A42F41E82B7052980041DD17 /* GGRecipe.swift */,
+				A42F41EB2B7052BC0041DD17 /* GGRandomRecipeResponse.swift */,
+				A42F41ED2B7052CD0041DD17 /* GGIngredient.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42F41E52B70526A0041DD17 /* GGResponseModel.swift in Sources */,
 				A42F41D72B70511E0041DD17 /* ContentView.swift in Sources */,
+				A42F41EE2B7052CD0041DD17 /* GGIngredient.swift in Sources */,
+				A42F41E72B7052870041DD17 /* GGSingleRecipeResponse.swift in Sources */,
+				A42F41E92B7052980041DD17 /* GGRecipe.swift in Sources */,
 				A42F41D52B70511E0041DD17 /* GourmetGuideSUIApp.swift in Sources */,
+				A42F41EC2B7052BC0041DD17 /* GGRandomRecipeResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
